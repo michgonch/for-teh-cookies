@@ -13,11 +13,13 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Как же хочется печенек и шуточек
+          Как же хочется
+          <br/>
+          печенек и шуточек
         </h1>
 
         <p className={styles.text}>
-          Хочется с вами работать.
+          Хочется работать с вами.
         </p>
 
         <div className={styles.links}>
@@ -39,15 +41,15 @@ const Home: NextPage = () => {
           Буду рад молниеносно освоить любой стек.
         </p>
         <p className={styles.text}>
-          Вместе коммерческого опыта пока есть сертификат.
+          Вместо коммерческого опыта пока есть сертификат.
         </p>
         
-        <a href="/cert.png" target="_blank" rel="noreferrer" className="link">
+        <a href="/cert.png" target="_blank" rel="noreferrer" className={styles.cert}>
           <Image src="/cert.png" alt="Certificate" width={320} height={250} />
         </a>
 
         <p className={styles.text}>
-          <a href="https://github.com/michgonch/for-teh-cookies" target="_blank" rel="noreferrer" className={styles.src}>Исходник</a> этой страницы
+          <a href="https://github.com/michgonch/for-teh-cookies" target="_blank" rel="noreferrer" className={styles.src}>Исходник</a> этой страницы.
         </p>
       </main>
       
